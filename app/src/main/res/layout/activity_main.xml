@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mytopbar.MainActivity">
+
+    <com.example.mytopbar.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:leftBackground="@color/colorAccent"
+        custom:leftText="Back"
+        custom:leftTextColor="@android:color/white"
+        custom:rightBackground="@color/colorAccent"
+        custom:rightText="More"
+        custom:rightTextColor="@android:color/white"
+        custom:title="自定义标题"
+        custom:titleTextColor="@android:color/white"
+        custom:titleTextSize="10sp">
+
+    </com.example.mytopbar.Topbar>
+</RelativeLayout>
